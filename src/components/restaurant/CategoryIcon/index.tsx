@@ -11,7 +11,7 @@ type Props = {
 const CategoryIcon = ({ category }: Props) => {
   return (
     <S.CategoryIconWrapper>
-      <img src={restaurant.categoryIcon[category]} alt={category} />
+      <S.CategoryIcon src={restaurant.categoryIcon[category]} alt={category} />
     </S.CategoryIconWrapper>
   );
 };

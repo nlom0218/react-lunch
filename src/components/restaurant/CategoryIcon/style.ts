@@ -11,8 +11,9 @@ export const CategoryIconWrapper = styled.div`
   margin-right: 16px;
   border-radius: 50%;
   background: var(--lighten-color);
-  img {
-    width: 36px;
-    height: 36px;
-  }
+`;
+
+export const CategoryIcon = styled.img`
+  width: 36px;
+  height: 36px;
 `;
